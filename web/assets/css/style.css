@@ -1,0 +1,57 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.t-header {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.t-header header {
+  padding: 21px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-radius: 35px;
+}
+.t-header header nav ul li {
+  padding: 0 20px;
+}
+
+.banner {
+  position: relative;
+}
+.banner .banner-content {
+  padding: 190px 0;
+}
+.banner .banner-content h1 {
+  color: #000000;
+  padding: 20px 100px 0 0;
+  font-size: 100px;
+}
+.banner .banner-content p {
+  font-size: 20px;
+}
+.banner .po-absolute .banner-img {
+  position: absolute;
+}
+.banner .po-absolute .b-img1 {
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.banner .po-absolute .b-img2 {
+  top: 0;
+  right: 0;
+  z-index: -2;
+}
+.banner .po-absolute .b-img3 {
+  top: 0;
+  left: 0;
+  z-index: -1;
+}/*# sourceMappingURL=style.css.map */
